@@ -1,0 +1,19 @@
+{
+  "name": "qxk-ui",
+  "version": "1.0.0",
+  "description": "组件库",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "release-it",
+    "postpublish": "git push --tags"
+  },
+  "keywords": [
+    "组件"
+  ],
+  "author": "zhen.wang",
+  "license": "ISC",
+  "dependencies": {
+    "release-it": "^15.8.0"
+  }
+}

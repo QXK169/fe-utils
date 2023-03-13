@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "release": "release-it",
-    "postpublish": "git push --tags"
+    "postpublish": "git push --tags",
+    "release:alpha": "npm version prerelease --preid=alpha && npm publish --tag qxk-ui-alpha"
   },
   "keywords": [
     "组件"
